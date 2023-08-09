@@ -1,0 +1,40 @@
+.nav-link{
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+.nav-link:hover{
+    color: #ffffff;
+    box-shadow: 1px 1px 10px rgb(147, 144, 144);
+}
+
+.container{
+    flex-wrap: wrap;
+    min-width: 260px; 
+    /* width: 100%; */
+}
+.col{
+    padding-bottom: 3px;
+}
+
+img{
+    height: 200px;
+}
+
+.signupbtn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    /* width: 695px;
+    margin-left: 13px; */
+    font-weight: bolder;
+}
+.btnrow{
+    justify-content: center;
+}
+
+.formcontainer{
+    border: 1px solid violet;
+    border-radius: 6px;
+    box-shadow: 2px 2px 7px black;
+}
