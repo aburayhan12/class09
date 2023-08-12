@@ -38,3 +38,9 @@ img{
     border-radius: 6px;
     box-shadow: 2px 2px 7px black;
 }
+
+.row>* {
+    padding-right: calc(var(--bs-gutter-x) * -.4);
+    padding-left: calc(var(--bs-gutter-x) * -.2);
+    margin-top: var(--bs-gutter-y);
+}
