@@ -29,6 +29,12 @@ img{
     margin-left: 13px; */
     font-weight: bolder;
 }
+
+span{
+    text-align: center;
+    margin-right: 9px;
+}
+
 .btnrow{
     justify-content: center;
 }
@@ -37,8 +43,12 @@ img{
     border: 1px solid violet;
     border-radius: 6px;
     box-shadow: 2px 2px 7px black;
+    max-width: fit-content;
+    padding-left: 16px;
+    padding-right: 20px;
 }
-.row>* {
+
+.row :not(.formcontainer){
     padding-right: calc(var(--bs-gutter-x) * -.4);
     padding-left: calc(var(--bs-gutter-x) * .2);
     margin-top: var(--bs-gutter-y);
